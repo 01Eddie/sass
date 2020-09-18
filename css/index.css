@@ -2,6 +2,11 @@ h1 {
   color: blue;
 }
 
+body {
+  background-color: white;
+  color: #036;
+}
+
 nav {
   margin: 4;
   padding: 4;
