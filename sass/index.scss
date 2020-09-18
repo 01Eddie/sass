@@ -9,7 +9,7 @@ $espacio: 79%;
 }
 
 nav{
-    @include reset-list(8/2);
+    @include reset-list(8/2); 
     ul{
         margin: 10%;
     }
