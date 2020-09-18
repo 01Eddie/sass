@@ -1,0 +1,29 @@
+@use 'estilo';
+
+$espacio: 79%;
+
+@mixin reset-list ($propiedad:10px) {
+    margin: $propiedad;
+    padding: $propiedad;
+    list-style: none;
+}
+
+nav{
+    @include reset-list(8/2);
+    ul{
+        margin: 10%;
+    }
+    li{
+        display: inline-block;
+    }
+}
+
+.padre{
+    width: $espacio;
+    border: solid blue 2px;
+}
+
+.matematica{
+    width: $espacio/2;
+    border: solid red 2px;
+}

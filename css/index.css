@@ -1,0 +1,27 @@
+h1 {
+  color: blue;
+}
+
+nav {
+  margin: 4;
+  padding: 4;
+  list-style: none;
+}
+nav ul {
+  margin: 10%;
+}
+nav li {
+  display: inline-block;
+}
+
+.padre {
+  width: 79%;
+  border: solid blue 2px;
+}
+
+.matematica {
+  width: 39.5%;
+  border: solid red 2px;
+}
+
+/*# sourceMappingURL=index.css.map */
